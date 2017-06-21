@@ -18,4 +18,10 @@ class SitioController extends Controller
 
 
 	}
+
+	public function mario(Request $request, $name, $edad){
+
+		echo "hola" . $name. " tienes " . $edad . "años";
+
+	}
 }
